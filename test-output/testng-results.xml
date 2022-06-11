@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-11T06:14:20Z" name="Suite" finished-at="2022-06-11T06:14:39Z" duration-ms="19536">
+    <groups>
+    </groups>
+    <test started-at="2022-06-11T06:14:20Z" name="Validating Login page" finished-at="2022-06-11T06:14:39Z" duration-ms="19536">
+      <class name="Academy.validateLoginPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateLoginPage@5460cf3a]" started-at="2022-06-11T11:44:20Z" name="initialize" finished-at="2022-06-11T11:44:34Z" duration-ms="14177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="login()[pri:0, instance:Academy.validateLoginPage@5460cf3a]" started-at="2022-06-11T11:44:34Z" name="login" finished-at="2022-06-11T11:44:39Z" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateLoginPage@5460cf3a]" started-at="2022-06-11T11:44:39Z" name="teardown" finished-at="2022-06-11T11:44:39Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateLoginPage -->
+    </test> <!-- Validating Login page -->
+  </suite> <!-- Suite -->
+</testng-results>

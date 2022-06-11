@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.listener"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test parallel="none" name="Validating Login page(failed)">
+    <classes>
+      <class name="Academy.validateLoginPage">
+        <methods>
+          <include name="login"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateLoginPage -->
+    </classes>
+  </test> <!-- Validating Login page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
